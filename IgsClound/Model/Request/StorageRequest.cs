@@ -5,10 +5,7 @@ using System.Threading.Tasks;
 
 namespace IgsClound.Model.Request
 {
-    public class VirtualMachineRequest : DeploymentResponseBase
+    public class StoreageRequest : DeploymentResponseBase
     {
-        public Enums.VirtualMachineType Type;
-        string StorageID;
-        
     }
 }
