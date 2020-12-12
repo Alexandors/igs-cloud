@@ -591,11 +591,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alexa\\Desktop\\igs-cloud-geeks\\IgsClound\\IgsClound\\IgsClound.csproj",
+      "projectUniqueName": "C:\\Users\\Alexa\\Desktop\\igs-cloud-geeks\\IgsClound\\IgsClound.csproj",
       "projectName": "IgsClound",
-      "projectPath": "C:\\Users\\Alexa\\Desktop\\igs-cloud-geeks\\IgsClound\\IgsClound\\IgsClound.csproj",
+      "projectPath": "C:\\Users\\Alexa\\Desktop\\igs-cloud-geeks\\IgsClound\\IgsClound.csproj",
       "packagesPath": "C:\\Users\\Alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alexa\\Desktop\\igs-cloud-geeks\\IgsClound\\IgsClound\\obj\\",
+      "outputPath": "C:\\Users\\Alexa\\Desktop\\igs-cloud-geeks\\IgsClound\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eEgeckkUwhWkAcsNDOEWzdecU63r/HVhY45nxDonjjsr4AFqBOcJ3fmp+I8X/f2H/oKPoRLlBzMFagsagsE0xw==",
+  "dgSpecHash": "Hmadvc4H25uyxTTB9VxSkJy2Qp+4XNKkHrNwCvNzm8kzHG+iG80MVzGysmiyDshZcHZ/1bNNuVNKAqmcOAmxRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alexa\\Desktop\\igs-cloud-geeks\\IgsClound\\IgsClound\\IgsClound.csproj",
+  "projectFilePath": "C:\\Users\\Alexa\\Desktop\\igs-cloud-geeks\\IgsClound\\IgsClound.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alexa\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\Alexa\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
