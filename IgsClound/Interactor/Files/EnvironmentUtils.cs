@@ -13,9 +13,14 @@ namespace IgsClound.Interactor.Files
             return Path.Combine(Enums.OutputFolder, infraId);
         }
 
-        public void removeAllFileAndFolder(string infraId)
+        public static void removeAllFileAndFolder(string path)
         {
-            DirectoryInfo root = new DirectoryInfo(GetEnvironmentPath(infraId));
+            if (!Directory.Exists(path))
+            {
+                return;
+            }
+
+            DirectoryInfo root = new DirectoryInfo(path);
 
             foreach (FileInfo file in root.GetFiles())
             {
@@ -25,6 +30,8 @@ namespace IgsClound.Interactor.Files
             {
                 dir.Delete(true);
             }
+
+            root.Delete(true);
         }
     }
 }

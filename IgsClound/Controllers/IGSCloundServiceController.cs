@@ -18,5 +18,11 @@ namespace IgsClound.Controllers
         {
             return (new CreateInfrastructureInteractor()).Execute(request);
         }
+
+        [HttpDelete]
+        public DeleteInfraResponse Delete(DeleteInfraRequest request)
+        {
+            return (new DeleteInfraInteractor()).Execute(request);
+        }
     }
 }

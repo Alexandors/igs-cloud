@@ -17,15 +17,15 @@ namespace IgsClound.Interactor
     {
         public DeploymentResponse Execute(DeploymentRequest request)
         {
-            var errorList = DeploymentRequestValidator.Validate(request);
-            errorList.ErrorResults.AddRange(VirtualMachineRequestValidator.Validate(request.VirtualMachines)?.ErrorResults);
+            var error = DeploymentRequestValidator.Validate(request);
+            error.ErrorResults.AddRange(VirtualMachineRequestValidator.Validate(request.VirtualMachines)?.ErrorResults);
 
-            if (errorList.ErrorResults.Count > 0)
+            if (error.ErrorResults.Count > 0)
             {
                 return new DeploymentResponse()
                 {
                     IsSuccess = false,
-                    ErrorItems = errorList.ErrorResults,
+                    ErrorItems = error.ErrorResults,
                 };
             };
 

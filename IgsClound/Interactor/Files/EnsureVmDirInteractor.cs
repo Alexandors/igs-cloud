@@ -11,12 +11,17 @@ namespace IgsClound.Interactor.Files
     {
         public string Execute(string infraId)
         {
-            var path = Path.Combine(EnvironmentUtils.GetEnvironmentPath(infraId), Enums.VirtualMachineFolder);
+            var path = GetVmPath(infraId);
             if (!Directory.Exists(path))
             {
                 Directory.CreateDirectory(path);
             }
             return path;
+        }
+
+        public static string GetVmPath(string infraId)
+        {
+            return Path.Combine(EnvironmentUtils.GetEnvironmentPath(infraId), Enums.VirtualMachineFolder);
         }
     }
 }
