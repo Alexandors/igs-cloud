@@ -11,6 +11,6 @@ x64/
 *.user
 *.sln.docstates
 
-Output/IGS/*
+**/Output/IGS/*
 
 .vs
