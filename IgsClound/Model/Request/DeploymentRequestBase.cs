@@ -7,7 +7,7 @@ namespace IgsClound.Model.Request
 {
     public abstract class DeploymentResponseBase
     {
-        public string ResourceID;
-        public string Description;
+        public string ResourceID { get; set; }
+        public string Description { get; set; }
     }
 }

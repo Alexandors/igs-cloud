@@ -12,6 +12,7 @@ namespace IgsClound.Validator
     {
         public static ValidationResult Validate(DatabaseRequest input)
         {
+
             var result = new ValidationResult();
 
             if (string.IsNullOrWhiteSpace(input.ResourceID))

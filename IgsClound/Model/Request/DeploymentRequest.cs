@@ -7,8 +7,8 @@ namespace IgsClound.Model.Request
 {
     public class DeploymentRequest : DeploymentResponseBase
     {
-        public string Environment;
-        public VirtualMachineRequest VirtualMachineRequest;
-        public DatabaseRequest DatabaseRequest;
+        public string Environment { get; set; }
+        public List<VirtualMachineRequest> VirtualMachines { get; set; }
+        public List<DatabaseRequest> Databases { get; set; }
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace IgsClound.Interactor.Database
 {
-    public class CreateStorageInteractor : IInteractor<Object, bool>
+    public class CreateMySqlInteractor : IInteractor<Object, bool>
     {
         public bool Execute(Object request)
         {

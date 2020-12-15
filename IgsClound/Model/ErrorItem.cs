@@ -7,8 +7,8 @@ namespace IgsClound.Model
 {
     public class ErrorItem
     {
-        int? ErrorCode;
-        string Message;
+        public int? ErrorCode { get; set; }
+        public string Message { get; set; }
 
         public ErrorItem(string message, int? errorCode = null)
         {

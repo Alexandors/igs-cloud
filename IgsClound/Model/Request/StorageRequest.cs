@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace IgsClound.Model.Request
 {
-    public class StoreageRequest : DeploymentResponseBase
+    public class StorageRequest : DeploymentResponseBase
     {
     }
 }

@@ -7,7 +7,7 @@ namespace IgsClound.Model.Request
 {
     public class DatabaseRequest : DeploymentResponseBase
     {
-        Enums.DatabaseType Type;
-        string StorageID;
+        Enums.DatabaseType Type { get; set; }
+        string StorageID { get; set; }
     }
 }

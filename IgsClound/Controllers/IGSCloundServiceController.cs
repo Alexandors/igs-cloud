@@ -1,4 +1,6 @@
-﻿using IgsClound.Model.Request;
+﻿using IgsClound.Interactor;
+using IgsClound.Model.Request;
+using IgsClound.Model.Response;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,9 +14,9 @@ namespace IgsClound.Controllers
     public class IGSCloundServiceController : ControllerBase
     {
         [HttpPost]
-        public string Create(DeploymentRequest request)
+        public DeploymentResponse Create(DeploymentRequest request)
         {
-            return "Success";
+            return (new CreateInfrastructureInteractor()).Execute(request);
         }
     }
 }

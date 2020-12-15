@@ -7,8 +7,8 @@ namespace IgsClound.Model.Response
 {
     public class DeploymentResponse
     {
-        public bool IsSuccess;
-        public List<ErrorItem> ErrorItems;
+        public bool IsSuccess { get; set; }
+        public List<ErrorItem> ErrorItems { get; set; }
 
         public DeploymentResponse()
         {
